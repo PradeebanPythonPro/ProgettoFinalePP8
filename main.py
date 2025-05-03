@@ -22,4 +22,4 @@ async def articolo(ctx):
     await ctx.send(random_article)
 
 bot.run("INSERISCI TOKEN")
-#usate responsabilmente ciao ragazzi come state
+#usate responsabilmente ciao ragazzi come state spero tutto bene
