@@ -1,5 +1,4 @@
 import random
-from random import *
 
 articles = [
     "https://www.enelgreenpower.com/it/learning-hub/transizione-energetica/cambiamento-climatico-cause-conseguenze",
@@ -20,5 +19,4 @@ articles = [
 ]
 
 def random_article():
-    return random.choice(articles)
-random_article()
+    return str(random.choice(articles))
