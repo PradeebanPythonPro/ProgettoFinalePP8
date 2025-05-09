@@ -18,5 +18,13 @@ articles = [
     "https://www.repubblica.it/solidarieta/cooperazione/2022/11/18/news/oceania_dove_la_salute_del_pianeta_impatta_sulla_salute_umana_le_conseguenze_dellemergenza_climatica_sulla_salute_delle_pe-375123619/"
 ]
 
+videos = ["https://www.youtube.com/watch?v=ALp4Cl31iM8",
+          "https://www.youtube.com/watch?v=JQ5Dq74GhnU",
+          "https://www.youtube.com/watch?v=HQclIvGp35Q",
+          "https://www.youtube.com/watch?v=brik4M1g2GM"
+]
 def random_article():
     return str(random.choice(articles))
+
+def random_video():
+    return str(random.choice(videos))

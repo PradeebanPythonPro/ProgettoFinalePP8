@@ -22,6 +22,10 @@ async def articolo(ctx):
     await ctx.send(random_article())
 
 @bot.command()
+async def video(ctx):   
+    await ctx.send(random_video()) 
+
+@bot.command()
 async def fatto(ctx):
     fatti = [
         "La temperatura media globale è aumentata di circa 1,1°C dal 1880.",
