@@ -19,7 +19,7 @@ async def aiuto(ctx):
 
 @bot.command()
 async def articolo(ctx):
-    await ctx.send(random_article)
+    await ctx.send(random_article())
 
-bot.run("INSERISCI TOKEN")
+bot.run("MTI5MjA0MTk4NTMzNDQ0ODE3MA.GtMcnI.aLy9yga5eR1AaPKZ5ROhx064BrNrpqVim-wmSw")
 #usate responsabilmente ciao ragazzi come state spero tutto bene
