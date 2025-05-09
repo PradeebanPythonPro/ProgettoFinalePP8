@@ -23,4 +23,3 @@ async def articolo(ctx):
 
 bot.run("")
 #usate responsabilmente ciao ragazzi come state spero tutto bene
-#ciao sono fede e sto provando
