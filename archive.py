@@ -21,4 +21,3 @@ articles = [
 
 def random_article():
     return random.choice(articles)
-random_article()

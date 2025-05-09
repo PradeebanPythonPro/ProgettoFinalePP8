@@ -21,6 +21,6 @@ async def aiuto(ctx):
 async def articolo(ctx):
     await ctx.send(random_article)
 
-bot.run("INSERISCI TOKEN")
+bot.run("")
 #usate responsabilmente ciao ragazzi come state spero tutto bene
 #ciao sono fede e sto provando
