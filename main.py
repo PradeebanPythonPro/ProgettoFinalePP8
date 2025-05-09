@@ -23,4 +23,8 @@ async def articolo(ctx):
 
 bot.run("INSERISCI TOKEN")
 #usate responsabilmente ciao ragazzi come state spero tutto bene
+<<<<<<< HEAD
   
+=======
+#ciao sono fede e sto provando
+>>>>>>> bfe3d005bd17b4653755044dbe72c305db441164
