@@ -109,5 +109,5 @@ async def rispondi(ctx, risposta: str):
     current_quiz.pop(ctx.author.id)
 
 
-bot.run("MTI5MjA0MTk4NTMzNDQ0ODE3MA.GtuOIA.uve5uoViKOSkrMjwveP9pp6Q7K5dux5BadTlM0")
+bot.run("TOKEN")
 #usate responsabilmente ciao ragazzi come state spero tutto bene
