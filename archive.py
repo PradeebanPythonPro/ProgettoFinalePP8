@@ -24,10 +24,6 @@ videos = ["https://www.youtube.com/watch?v=ALp4Cl31iM8",
           "https://www.youtube.com/watch?v=brik4M1g2GM"
 ]
 def random_article():
-
-    return random.choice(articles)
-random_article()
-
     return str(random.choice(articles))
 
 def random_video():

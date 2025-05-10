@@ -21,9 +21,6 @@ async def aiuto(ctx):
 async def articolo(ctx):
     await ctx.send(random_article())
 
-
-bot.run("")
-
 @bot.command()
 async def video(ctx):   
     await ctx.send(random_video()) 
