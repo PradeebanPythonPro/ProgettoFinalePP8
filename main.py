@@ -112,6 +112,24 @@ async def rispondi(ctx, risposta: str):
         await ctx.send(f"❌ Sbagliato. La risposta corretta era **{globale}**.")
     current_quiz.pop(ctx.author.id)
 
+@bot.command()
+async def sfida(ctx):
+    sfide = [
+        "♻️ Prova a non usare plastica monouso per un giorno!",
+        "🚲 Vai al lavoro o a scuola senza usare l’auto!",
+        "🌿 Dedica 10 minuti a piantare qualcosa: un albero, una pianta o un fiore!",
+        "📴 Spegni tutti i dispositivi elettronici per 1 ora questa sera."
+    ]
+    await ctx.send(f"{ctx.author.name}, la tua sfida di oggi è:\n{random.choice(sfide)}")
+@bot.command()
+async def curiosita(ctx):
+    curiosita_list = [
+        "🌍 Il Polo Nord non è sempre stato coperto di ghiaccio: milioni di anni fa, era una zona tropicale.",
+        "🌀 Gli uragani stanno diventando più intensi a causa del riscaldamento degli oceani.",
+        "🍃 Le foreste pluviali assorbono circa il 30 percento delle emissioni globali di CO₂.",
+        " Solo il 3 percento dell'acqua sulla Terra è dolce, e una parte è intrappolata nei ghiacciai."
+    ]
+    await ctx.send(random.choice(curiosita_list))
 
 bot.run("TOKEN")
 
